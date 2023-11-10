@@ -103,6 +103,7 @@ button{
 .card{
     position: relative;
     max-width: 285px;
+    overflow: hidden;
 }
 
 .card--front{
