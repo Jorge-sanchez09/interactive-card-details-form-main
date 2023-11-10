@@ -33,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://kriosaber.github.io/interactive-card-details-form-main/)
 
 ## My process
 
@@ -94,15 +93,18 @@ input{
 }
 ```
 ```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
+const regExpressions = {
+    creditCard: /^\d{16}$/,
+    month: /(^0?[1-9]$)|(^1[0-2]$)/,
+    year: /^(\d?[1-9]|[1-9]0)$/,
+    cvc: /^\d{3}$/
 }
 ```
 
 ### Useful resources
 
 - [CSS Tricks](https://css-tricks.com/gradient-borders-in-css/) - This helped me for the input linear-gradient border color
-
+- [Stack Overflow](https://stackoverflow.com/questions/17350833/reg-exp-for-javascript-pattern-mm-yyyy) - This is where I took some regular expressions from 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Kriosaber](https://www.frontendmentor.io/profile/Kriosaber)
